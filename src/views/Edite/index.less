@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+  border: 1px solid #eee;
+  .tabs {
+    flex: 0 0 300px;
+    border-right: 1px solid #eee;
+    .tabs_li {
+      line-height: 44px;
+      padding-left: 20px;
+    }
+    .active {
+      background-color: #e8e897;
+      border-top: 2px solid #f3f36a;
+      border-bottom: 2px solid #f3f36a;
+    }
+
+    .tabs_li + .tabs_li {
+      border-top: 1px solid #eee;
+    }
+  }
+  .content {
+    flex: 1;
+    padding: 20px;
+    .add{
+      padding: 20px;
+      background-color: #eee;
+      margin-top: 20px;
+    }
+  }
+}
+

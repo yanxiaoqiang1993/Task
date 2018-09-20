@@ -1,0 +1,11 @@
+{
+  "presets": [
+    "react",
+    "es2015",
+    "env"
+  ],
+  "plugins": [
+    ["import", { "libraryName": "antd", "libraryDirectory": "lib","style": true}, "ant"],
+    ["import", { "libraryName": "ant-mobile", "libraryDirectory": "lib"}, "ant-mobile"]
+  ]
+}
